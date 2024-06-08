@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+}
+
+.container {
+    background-color: rgb(40, 37, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+
+}
+.container0{
+    color: white;
+    padding: 25px;
+    background-color: rgba(82, 201, 169, 0.5);
+}
+#change{
+    display: none;
+}
+
+
+.container0 fieldset{
+    padding: 50px;
+    border-color: rgb(200, 173, 225);
+}
+
+.container0 label,button{
+    margin-top:25px;
+}
+
+.mincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
