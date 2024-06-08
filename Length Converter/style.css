@@ -1,0 +1,53 @@
+*{
+    margin: 0%;   
+    color: black; 
+    font-family: monospace;
+    font-size: xx-large;
+}
+center h1{
+    background-color: blueviolet;
+    color: white;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+}
+#maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 80px;
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 12, 72);
+}
+
+.container #form{
+    padding: 50px;
+    background-color: rgb(15, 7, 59);
+}
+
+.container #form h1,h3{
+    color: white;
+}
+
+.container #form div{
+    padding: 50px 0px 50px 0px;
+}
+
+.container #form button{
+    color: white;
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.container #form input{
+    padding: 5px 40px 5px 40px;
+    color: black;
+    text-align: center;
+}

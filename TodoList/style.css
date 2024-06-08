@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+#content{
+    padding: 50px;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#content h1{
+    text-align: center ;
+}
+
+#content input{
+    padding:4px 12px ;
+}
+
+#content button{
+    padding:4px 12px;
+background-color: violet;}
+
+#content p{
+    border: 2px solid rgb(115, 112, 112);
+    text-align: center;
+    font-family: monospace;
+    font-size: larger;
+}
